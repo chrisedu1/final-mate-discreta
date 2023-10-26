@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Problema Conjuntos</title>
+    <link rel="stylesheet" href="conjuntos.css">
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <nav class="navbar">
+        <div class="brand">
+          <a class="return" href="../portada.html">Regresar</a>
+        </div>
+        <ul class="menu">
+          <li><a class="active" href="#menu">Home</a></li>
+          <li><a href="#cartas">Ejercicio 2</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="caratula">
+        <h1 id="menu">CONJUNTOS</h1>
+        <br>
+        <p>En matemáticas, un conjunto es una colección de elementos considerada en sí misma como un objeto matemático. Los elementos de un conjunto, pueden ser las siguientes: personas, números, colores, letras, figuras, etc.</p>
+        <br>
+        <p><strong>Conjunto Unión</strong> la teoría de conjuntos, la unión de dos conjuntos es una operación que resulta en otro conjunto, cuyos elementos son los mismos de los conjuntos iniciales</p>
+    </div>
+      <img class="logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/PolygonsSetUnion.svg/800px-PolygonsSetUnion.svg.png">
+    </main>
+  </div>
+  <div class="espacio"></div>
+    <div class="portafolio" id="cartas">
+        <div class="portafolio-headings">
+            <h1>Ejercicio No. 3</h1>
+        </div>
+        <p class="Ejercicio">Cual es el conjunto resultante de la Unión de los conjuntos conformados por A={x/x elementos del sistema de numeración hexadecimal} y B {x/x 12 > x < 7 }</p>
+        <center><h4>Click en el botón para ver el resultado de la unión:</h4></center>
+        <br>
+        
+        <p id="resultado"></p>
+        <br>
+        <button id="solucionButton" onclick="calcularUnion()">SOLUCIÓN</button>
+
+    </div>
+    <script src="conjuntos.js"></script>
+    
+</body>
+</html>

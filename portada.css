@@ -1,0 +1,218 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(https://hazrevista.org/wp-content/uploads/2023/02/inteligencia-artificial-cambiado-futuro.jpg);
+    background-size: cover;
+    color: #fff;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: .7em;
+    border: solid 2px;
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)),url(https://img.freepik.com/vector-gratis/fondo-malla-particulas-tecnologia-abstracta_1017-17927.jpg);
+    border-color: #37b08e;
+    position: fixed;
+    font-size: 20px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    scroll-margin-top: 15ex;
+}
+
+.brand span {
+    color: #37b08e;
+}
+
+.brand {
+    margin-top: -7px;
+}
+
+.menu {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.menu li{
+    list-style: none;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.menu .active {
+    color: #37b08e;
+}
+
+.menu a:hover {
+    background-color: #37b08e;
+    color: #191c32;
+    transition: ease-in .3s;
+}
+
+.main {
+    margin: 0 auto;
+    width: 80vw;
+    height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    align-items: center;
+}
+
+h1 {
+    font-size: 2.1em;
+    text-align: center;
+    font-family: 'Pixelify Sans', sans-serif;
+    font-size: 50px;
+}
+
+h3 {
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+}
+
+.logo {
+    width: 30vw;
+    height: 45vh;
+    padding-left: 100px;
+}
+
+.alumnos {
+    width: 100vw;
+    height: 100hw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-image: linear-gradient(rgba(0,0,0,0.50),rgba(0,0,0,0.50)), url(https://img.freepik.com/vector-gratis/particula-tecnologia-abstracta-realista-fondo_23-2148431735.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1697500800&semt=ais);
+    background-size: cover;
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+}
+
+.txt1 {
+    margin-top: 60px;
+    font-size: 50px;
+}
+
+.alumnos1 {
+    display: flex;
+}
+
+.alumnos2 {
+    display: flex;
+}
+
+img {
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+.card {
+    margin: 10px;
+    padding: 30px;
+    font-size: 15px;
+}
+
+#ejercicios {
+    width: 100vw;
+    height: 50vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-image: url(https://st3.depositphotos.com/18803028/35024/i/450/depositphotos_350240480-stock-photo-mathematics-background-with-formulas-seamless.jpg);
+    background-size: cover;
+}
+
+.card1 {
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+    background-image: url(https://i.pinimg.com/236x/23/84/f3/2384f303058a6af8d78f35a07a4113cf.jpg);
+    margin: 10px;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    border-style: dashed;
+}
+
+.card2 {
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+    background-image: url(https://www.shutterstock.com/image-photo/venn-diagram-glow-260nw-1167445933.jpg);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    border-style: dashed;
+}
+
+.card3 {
+    width: 350px;
+    height: 250px;
+    border-radius: 20px;
+    background-image: url(https://us.123rf.com/450wm/mamun25g/mamun25g2209/mamun25g220908802/192029682-dise%C3%B1o-de-logotipo-de-letra-mcd-con-forma-de-pol%C3%ADgono-dise%C3%B1o-de-logotipo-en-forma-de-cubo-y.jpg?ver=6);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+    border-style: dashed;
+}
+
+.card-title {
+    text-align: center;
+    padding: 20px;
+    color: #fff;
+}
+
+.card_boton1 {
+    width: 90%;
+    height: 30px;
+    margin: 0 auto;
+    margin: 1em;
+    border: 0;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-left: 15%;
+    background-color: aqua;
+    
+}
+
+button:hover {
+    background-color: white;
+    transition: ease-in .3s;
+}
+
+.card_boton1 a {
+    justify-content: center;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    text-transform: uppercase;
+    transition: ease-in .2s;
+}

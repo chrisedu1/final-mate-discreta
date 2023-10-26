@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Cálculo de Placas de Vehículos en Guatemala</title>
+</head>
+<body>
+  <div class="wrapper">
+    <header>
+      <nav class="navbar">
+        <div class="brand">
+          <a class="return" href="../portada.html">Regresar</a>
+        </div>
+        <ul class="menu">
+          <li><a class="active" href="#menu">Home</a></li>
+          <li><a href="#calc1">Ejercicio</a></li>
+          <li><a href="#calc2">Ej. Modificable</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main class="permutacion">
+      <div class="permu">
+        <h1 class="title1" id="menu">Permutaciones</h1>
+        <hr>
+        <hr>
+        <br>
+        <br>
+        <div class="txt-img">
+          <p id="explicacion"><strong>Una permutación con repetición consiste 
+            <br>
+            en una permutación de "n" elementos,
+            <br> 
+            de los cuales hay varios que son iguales entre sí.
+            <br> 
+            Y por tanto, a la hora de calcular las distintas formas de ordenar 
+            <br>
+            los "n" elementos hay diferencias con respecto a 
+            <br>
+            si no hubiese elementos iguales.</strong></p>
+          <img src="dados.png">
+        </div>
+      </div>
+    </main>
+  </div>
+  <div class="espacio"></div>
+  <div class="calculo1" id="calc1">
+    <h1 class="txt2">Cálculo de Placas de Vehículos en Guatemala</h1>
+    <br>
+    <br>
+    <p class="txtc">Las placas de los vehículos en Guatemala están formadas por 3 dígitos seguidos por 3 letras.</p>
+    <br>
+    <br>
+    <button class="btn1" onclick= "calcularPlaca()">Calcular Placas Posibles</button>
+    <br>
+    <p>
+    Procedimiento: Dígitos= 10 10 10
+                   Letras = 27 27 27
+      <br>
+      Operación: 10x10x10x27x27x27= 
+      <br>
+      El número de placas posibles es:
+      <br>
+      <span id="resultado1"></span></p>
+  </div>
+  <div class="calculo2" id="calc2">
+    <h1 class="txt3">Ejercicio Modificable</h1>
+    <br>
+    <br>
+    <p>Ingresa el número de dígitos y letras para calcular el número de placas posibles en Guatemala.</p>
+    <br>
+    <br>
+    <label for="numDigitos">Número de dígitos:</label>
+    <input type="number" id="numDigitos" min="1" value="3">
+
+    <label for="numLetras">Número de letras:</label>
+    <input type="number" id="numLetras" min="1" value="3">
+    <br>
+    <br>
+    <button class="btn2" onclick="calcularPlacas()">Calcular Placas Posibles</button>
+
+    <p>El número de placas posibles es: <span id="resultado2"></span></p>
+  </div>
+    <script src="java.js">
+    </script>
+</body>
+</html>
